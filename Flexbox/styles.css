@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar{
+    list-style: none;
+    display: inline-flex;
+    background-color: #f40202;
+    padding: 8px;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navbar > *{
+    flex-basis: 500px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.aa{
+    background-color: aqua;
+}
+
+.bb
+{
+    background-color: rgb(108, 108, 255);
+}
+
+.cc{
+    background-color: coral;
+}
+
+.dd{
+    background-color: darkcyan;
+}
+
+.ee{
+    background-color: darkgoldenrod;
+}
