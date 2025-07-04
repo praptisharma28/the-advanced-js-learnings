@@ -33,8 +33,7 @@ body{
 button{
     background-color: #ffffff;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    padding: 60px 70px;
     text-align: center;
     display: inline-block;
     font-size: 1.5rem;
@@ -53,4 +52,28 @@ footer {
 
 .container {
     flex: 1;
+}
+
+.w{
+    background-image: url("images/tom1.png");
+}
+
+.a{
+    background-image: url("images/tom2.png");
+}
+
+.s{
+    background-image: url("images/tom3.png");
+}
+.d{
+    background-image: url("images/tom4.png");
+}
+.j{
+    background-image: url("images/snare.png");
+}
+.k{
+    background-image: url("images/crash.png");
+}
+.l{
+    background-image: url("images/kick.png");
 }
